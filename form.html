@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form and Table Example</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Information Form</h2>
+    <form id="infoForm">
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" required>
+
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" required>
+
+      <label for="address">Address:</label>
+      <textarea id="address" required></textarea>
+
+      <label for="pincode">Pincode:</label>
+      <input type="text" id="pincode" required>
+
+      <label for="gender">Gender:</label>
+      <select id="gender" required>
+        <option value="">Select</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label for="food">Choice of Food:</label>
+      <input type="text" id="food" required>
+
+      <label for="state">State:</label>
+      <input type="text" id="state" required>
+
+      <label for="country">Country:</label>
+      <input type="text" id="country" required>
+
+      <button type="button" onclick="submitForm()">Submit</button>
+    </form>
+
+    <h2>Information Table</h2>
+    <table id="infoTable">
+      <tr>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Food</th>
+        <th>State</th>
+        <th>Country</th>
+      </tr>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
