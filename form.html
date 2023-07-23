@@ -10,15 +10,23 @@
     <form id="infoForm">
       <label for="firstName">First Name:</label>
       <input type="text" id="firstName" required>
+      <br>
+      <br>
 
       <label for="lastName">Last Name:</label>
       <input type="text" id="lastName" required>
+      <br>
+      <br>
 
       <label for="address">Address:</label>
       <textarea id="address" required></textarea>
+      <br>
+      <br>
 
       <label for="pincode">Pincode:</label>
       <input type="text" id="pincode" required>
+      <br>
+      <br>
 
       <label for="gender">Gender:</label>
       <select id="gender" required>
@@ -27,15 +35,31 @@
         <option value="female">Female</option>
         <option value="other">Other</option>
       </select>
+      <br>
+      <br>
 
       <label for="food">Choice of Food:</label>
-      <input type="text" id="food" required>
+      
+      
+      <select id="food" required>
+        <option value="">Select</option>
+        <option value="veg">veg</option>
+        <option value="non-veg">non-veg</option>
+        <option value="fast foods">fast food</option>
+        <option value="other">Other</option>
+      </select>
 
+      <br>
+      <br>
       <label for="state">State:</label>
       <input type="text" id="state" required>
+      <br>
+      <br>
 
       <label for="country">Country:</label>
       <input type="text" id="country" required>
+      <br>
+      <br>
 
       <button type="button" onclick="submitForm()">Submit</button>
     </form>
@@ -50,6 +74,7 @@
         <th>Country</th>
       </tr>
     </table>
+    
   </div>
 
   <script src="script.js"></script>
